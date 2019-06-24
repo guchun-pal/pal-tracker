@@ -4,3 +4,6 @@ applications:
   path: build/libs/pal-tracker.jar
   routes:
   - route: pail-tracker-luweijie.cfapps.io
+  env:
+    WELCOME_MESSAGE: Hello from Cloud Foundry
+    JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
